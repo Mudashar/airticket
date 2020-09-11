@@ -1,0 +1,156 @@
+@CHARSET "ISO-8859-1";
+/* jssor slider bullet navigator skin 13 css */
+        /*
+        .jssorb13 div           (normal)
+        .jssorb13 div:hover     (normal mouseover)
+        .jssorb13 .av           (active)
+        .jssorb13 .av:hover     (active mouseover)
+        .jssorb13 .dn           (mousedown)
+        */
+        .jssorb13 {
+            position: absolute;
+        }
+        .jssorb13 div, .jssorb13 div:hover, .jssorb13 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 21px;
+            height: 21px;
+            background: url('img/b13.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb13 div { background-position: -5px -5px; }
+        .jssorb13 div:hover, .jssorb13 .av:hover { background-position: -35px -5px; }
+        .jssorb13 .av { background-position: -65px -5px; }
+        .jssorb13 .dn, .jssorb13 .dn:hover { background-position: -95px -5px; }
+    
+			.header{
+				width:100%;
+				height:120px;
+				background-color: #900C3F;
+			}
+			.sub_h1{
+				color:white;
+				font-size:300%;
+				padding-top:2%;
+				padding-bottom:2%;
+				margin-left:10%;
+				margin-right:10%;
+			}
+			.subsub_h1{
+				float:right;
+				
+				background-color:#900C3F;
+				border-radius:20%;
+			}
+			.subsub_h1 i{
+				font-size: 20px;
+			}
+			.subsub_h1 input[type=submit]{
+				padding: 6px 10px;
+				margin: 8px 0;
+				box-sizing: border-box;
+				
+				border-radius:20px;
+				background-color: #900C3F;
+				color: white;
+				cursor: pointer;
+			
+			}
+			.subsub_h1 input[type=submit]:hover{
+				padding: 7px 13px;
+				border-radius:20px;
+				background-color: white;
+				color: #900C3F;
+			
+			}
+			.subsub_h1 a{
+				padding: 6px 10px;
+				margin: 8px 0;
+				
+				border-radius:20px;
+				background-color: #900C3F;
+				color: white;
+				
+			
+			}
+			.subsub_h1 a:hover{
+				padding: 7px 13px;
+				border-radius:20px;
+				background-color: white;
+				color: #900C3F;
+			
+			}
+			.container{
+				width:100%;
+				height:auto;
+			}
+			.sub_c1{
+				float:right;
+				width:35%;
+
+				border-radius: 30px;
+				font-style:italic;
+				margin:5% 5% 0 5%;
+				
+			}
+			.sub_c1 input[type=text] {
+				width: 100%;
+				padding: 12px ;
+				margin: 8px 0;
+				
+				border: 1px solid #900C3F;
+				border-radius:20px;
+				background-color: #F5F0EF;
+				color: #900C3F;
+			}
+			.sub_c1 input[type=email] {
+				width: 100%;
+				padding: 12px ;
+				margin: 8px 0;
+				border: 1px solid #900C3F;
+				border-radius:20px;
+				background-color: #F5F0EF;
+				color: #900C3F;
+			}
+			.sub_c1 input[type=password] {
+				width: 100%;
+				padding: 12px ;
+				margin: 8px 0;
+				box-sizing: border-box;
+				border: 1px solid #900C3F;
+				border-radius:20px;
+				background-color: #F5F0EF;
+				color: #900C3F;
+			}
+			.sub_c1 input[type=submit] {
+				float:right;
+				width: 20%;
+				padding: 12px ;
+				margin: 8px 0;
+				box-sizing: border-box;
+				
+				border-radius:20px;
+				background-color: #900C3F;
+				color: white;
+				cursor: pointer;
+			}
+			.sub_c1 input[type=submit]:hover{
+				font-size:20px;
+	
+			}
+			.sub_c2{
+				padding-top:10%;
+				padding-left:5%;
+				width:45%;
+				
+			}
+			.footer{
+				margin-top: 10%;
+				background-color: white;
+			}
+			.f_b{
+				width:80%;
+				margin:auto;
+				
+			}

@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+    	table#score {
+ 
+    			border-collapse: collapse;
+    		}
+    		table#score th,td{
+ 
+    			border : 1px solid transparent;
+    			padding: 5px 10px;
+ 
+    		}
+    		table#score th{
+    			font-size: 20px;
+    			font-style:italic;
+                        background-color: #900C3F;
+    		}
+    		table#score th::first-letter{
+    			font-variant: small-caps;
+    			font-size: 30px;
+    			font-style:italic;
+ 
+    		}
+    		img{
+    			border-radius: 50%;
+			float:  left;
+    		}
+    		
